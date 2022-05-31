@@ -1,0 +1,32 @@
+﻿@page
+@using MyNotebookApp.Model
+@model Pages_WriteNote
+@{
+    ViewData["Title"] = "Youre note";
+}
+<div class="text-center">
+    <h1 class="display-4">Write youre note.</h1>
+    <p></p>
+</div>
+<br />
+
+
+  <div class="searches">
+<div>
+<form> 
+   Find a Note by Title <input type="text" class="search"/>
+   <input type="submit" value="Search" />
+</form>
+</div>
+
+<div>
+<form> 
+   Find a Note by Category <input type="text" class="search" />
+   <input type="submit" value="Search" />
+</form>
+</div>
+</div>
+  
+<form>
+<button id="input-text" type="submit" class="btn btn-primary uzkniso">Record it</button>
+</form>
